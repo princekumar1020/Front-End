@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  2 things 
+      1) remember select option first 
+      2) option and optgroup 
+      option have value and optgroup have label 
+    -->
+    <form action="">
+        <label for="country">Select your country</label>
+        <select name="country" id="country">
+            <option>Select your country</option>
+            <optgroup label="Asia"></optgroup>
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+            <option value="Indonesia">Indonesia</option>
+            <optgroup label="Europe"></optgroup>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <optgroup label="Africa"></optgroup>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Kenya">Kenya</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+        <br><br> 
+        <!-- <label for="comment">Commment below:</label> -->
+         <!-- dont use label here use paragraph tag or heading -->
+        <h3>Comment below:</h3>
+        <textarea name="comment" id="comment" placeholder="type here ..."></textarea>
+    </form>
+</body>
+</html>
