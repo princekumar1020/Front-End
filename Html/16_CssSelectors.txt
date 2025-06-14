@@ -1,0 +1,11 @@
+✅ 2. How to know which CSS selectors to use when styling?
+This confusion is 100% normal at the beginning. But there are simple patterns and rules that can guide you.
+
+🎯 Types of CSS Selectors and When to Use:
+Selector Type	Syntax	When to Use
+Tag selector	p, h1	Apply basic styles to all elements of that type
+Class	.btn	For reusable components like buttons, cards, etc.
+ID	#hero	For unique elements (used sparingly, like one hero area)
+Child	.nav > li	When styling direct children only
+Descendant	.card p	When you want to style inner elements inside something
+Pseudo-class	a:hover	When something changes on interaction
