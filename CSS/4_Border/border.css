@@ -1,0 +1,44 @@
+/* 
+    Short hand trika
+    border: width   style:solid/dashed/dotted    color;
+ */
+.solid{
+    border:10px solid red;
+ }
+.dashed{
+    border:10px dashed blue;
+ }
+.dotted{
+    border:10px dotted green;
+ }
+.ridge{
+    border:10px ridge rgb(255, 208, 0);
+ }
+.groove{
+    border:10px groove rgb(255, 208, 0);
+ }
+.inset{
+    border:10px inset skyblue;
+ }
+.outset{
+    border:10px outset skyblue;
+ }
+ .bottom{
+    border-bottom: 10px solid red;
+ }
+ .left{
+    border-left: 10px solid green;
+ }
+ .right{
+    border-right: 10px solid blue;
+ }
+ .top{
+    border-top: 10px solid yellow;
+ }
+ .radius{
+    border: 6px solid rgb(122, 0, 128);
+    border-radius:20px;
+ }
+ h3 span{
+    color: rgb(31, 0, 169);
+ }
