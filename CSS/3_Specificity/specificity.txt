@@ -1,0 +1,17 @@
+1) inline style attribute > id selector > class selector > element selector :-means
+style attribute is more specific then all and id is more specific then class and class is more specific then element selector
+means if there is property which is same but with diff value like color in this case id property overrides the class and element and classs rides on elements
+2) if we have to by chance apply some thing force fully 
+    eg:- color then,
+         .red {
+            color:red !important;
+         }
+         here write (!important) ok.
+3) now if there are two classes in one tag so we give diff color by these id now the specificity of both classes are same so recent or below writen class property get implimented ok.
+
+4) HOW TO CALCULATE SPECIFICITY :- 
+fisrt maintain the oder and count how many time we use each 
+order: style attribute , id ,class , element.
+       ______________ ,____ ,_____,__________ : put count in dash and if not then 0
+eg: 
+   higher not we get higher is specificity.
