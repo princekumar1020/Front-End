@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .relative{
+    /* font-size: 16px;  by default given by browser*/
+    /* font-size:16px; */
+    border:2px solid red;
+    width: 50%;
+    margin:5px auto;
+}
+.relative p{
+    /* font-size: 100%; : ya parent ka 100 perc rha ga means 16px */
+    /* font-size: 200%; : ya parent ka 200 perc rha ga means 32px*/
+    /* font-size: 200%; */
+    border:2px solid blue;
+    background-color: skyblue;
+    margin:10px auto;
+    text-align: center;
+    width:50%;
+}
+   </style>
+</head>
+<body>
+    <!-- Two types of units  :
+        1) Absolute : fix do not change w.r.t screen and parent.
+        2) Relative :changes w.r.t to screen and parent.
+     -->
+    <!-- Now seeeing percentage used for width generaly -->
+    <div class="relative">
+        <p>Hey, Every One</p>
+    </div>
+</body>
+</html>

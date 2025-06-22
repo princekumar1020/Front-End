@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 2em;/*outer h1 :16*2= 32px and inner h1:20*2=40px*/
+            border:2em solid black;/*outer h1 :16*2*2= 64px and inner h1:20*2*2=80px*/
+            padding:3em;/*outer h1 :16*2*3= 96px and inner h1:20*2*3=120px*/
+        }
+    </style>
+</head>
+<body>
+    <!-- change acc to the parent every element check its parent and after that decide its size ok 
+     is ma kya ho ga ki font size dhekha ga apna and apna parent ka us hisab sa 
+     agar boder padding etc kuch diya ho ga to vo us hisab sa change ho ga ok
+     means sirf font size ka hisab sa multiple ho ga 
+    -->
+    <h1>I am seeing my parent size body and its 16px by default i am of 2em so my size is 32px</h1>
+    <div class="box">
+        <h1>I am seeing my parent size div and its 20px and i am of 2em so my  size is 40px </h1>
+        <p>hey every one</p>
+    </div>
+</body>
+</html>

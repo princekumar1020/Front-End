@@ -1,0 +1,4 @@
+1) use rem for font size always to make easy responsive pages px ma media query jada lgani pda gi
+2) padding and margin ka liya use kra em because if we make responsive website when
+and jabi ham screen badi choti karta ha to apna ap padding adjust ho jae gi fnt size ka according ok
+3) for layout kis chej ko left right karna ha use %
