@@ -1,0 +1,27 @@
+.parent{
+    border:6px solid green;
+}
+.box1{
+    width:45%;
+    border:2px solid orange;
+    background-color:lightgoldenrodyellow;
+    float: left;
+}
+.box2{
+    width:54.5%;
+    border:2px solid blue;
+    background-color:lightblue;
+    float:right;
+}
+.parent::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+/* .clear-space{
+    clear: both;
+} */
+.guest{
+    border:2px solid red;
+    background-color:lightsalmon;
+}
