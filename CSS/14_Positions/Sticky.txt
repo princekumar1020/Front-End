@@ -1,0 +1,17 @@
+RS - relative Sticky  mixture of relative and fix.
+
+1. ✅ Original position retain karta hai
+Sticky element layout flow me apni jagah banaye rakhta hai, bilkul relative ki tarah.
+Iska matlab: doosre elements uski jagah occupy nahi karte.
+
+2. 📍 Scroll hone par apne hi position se chipak jata hai
+Jab aap page scroll karte ho aur sticky element ka top, left, bottom, ya right value match ho jata hai, to wo wahan chipak jata hai.
+Example: top: 0 hone par wo screen ke top pe chipak jaega.
+
+3. 📦 Sirf apne parent container ke andar hi sticky rehta hai
+Jab tak parent container visible hai, sticky element chipka rahta hai.
+Jaise hi parent khatam hota hai (scroll ke baad), sticky element bhi uske sath upar chala jaata hai — yaani sticky hona parent ke andar tak hi limited hota hai.
+
+4. 🚫 Sticky fixed ki tarah full screen pe nahi chipakta
+fixed pure page ke viewport se chipakta hai, lekin sticky sirf parent ke andar tak chipakta hai.
+Isliye sticky headers ya sections ke liye sticky zyada useful hota hai.

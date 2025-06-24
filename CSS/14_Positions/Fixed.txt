@@ -1,0 +1,16 @@
+FA - absolute and fixed 
+1. ❌ Document flow se completely bahar hota hai
+Fixed element layout flow ka part nahi hota, isliye uski jagah layout me chhodi nahi jaati.
+Dusre elements uski original jagah pe aa jaate hain.
+
+2. 📌 Viewport ke respect me fix ho jaata hai
+Fixed element hamesha browser window (viewport) ke according position leta hai — na ki kisi parent ke according.
+Example: top: 0; right: 0; — to element hamesha screen ke top-right corner me chipak jaayega.
+
+3. 🔒 Scroll karne par bhi wahi rehta hai (sticky nahi hota)
+Scroll karne ke baad bhi fixed element screen pe wahi chipka rehta hai.
+Jaise: navbar, back-to-top button, floating chat box — ye sab fixed ke examples hain.
+
+4. 🖥️ Viewport ke bahar nahi jaata
+Fixed element screen ke kisi bhi corner ya position par fix kiya ja sakta hai using top, left, bottom, right.
+Aur ye scroll hone par bhi visible rehta hai.

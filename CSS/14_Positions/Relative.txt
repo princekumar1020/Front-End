@@ -1,0 +1,4 @@
+When we give position relative to an element it will not come out from document flow but it will change its position  relative to its original position 
+Relative position sirf khud ki jagah ke hisaab se kaam karta hai — kisi parent ko nahi dekhta.
+Now when we give position relative iski jaga bani rheti ha na ki absolute ki tra us jga pa or element a jata ha 
+"position: relative me element sirf dikhne me shift hota hai (top, left se), lekin layout me uski original space reserved rehti hai. Dusre elements us jagah ko use nahi karte."

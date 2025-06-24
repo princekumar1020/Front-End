@@ -1,0 +1,20 @@
+Jab kisi element ko position: absolute dete ho, to uski position decide hoti hai uske closest ancestor ke respect mein jiska position value:
+
+relative
+
+ya absolute
+
+ya fixed
+
+ya sticky ho.
+
+Agar koi aisa ancestor nahi mila, to woh <html> (viewport) ke respect mein position leta hai.
+ 
+Q) kya absolute dena sa box shrink hota ha ya uski display chnage hoti ha  ??
+
+Yes, agar width ya height explicitly set nahi ki gayi, to absolute element shrink ho sakta hai — but wo inline element nahi ban jata.
+But Uska display type change nahi hota, but layout behavior thoda inline jaise ho sakta hai.
+
+"position: absolute me element document flow se completely bahar ho jata hai. Uski jagah layout me nahi rehti, aur baaki elements us position ko occupy kar lete hain."
+
+***) If we have to make any element center to ham uska parent ko position relative deta ha and us element ko jisa center karna ha usa position absolute and then top and left sa 50 % and fir transform:translate(-50% , -50%); kar ka center ma ho jae ga 
