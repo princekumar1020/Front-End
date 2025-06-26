@@ -2,3 +2,17 @@
 2) padding and margin ka liya use kra em because if we make responsive website when
 and jabi ham screen badi choti karta ha to apna ap padding adjust ho jae gi fnt size ka according ok
 3) for layout kis chej ko left right karna ha use %
+
+some problem we can face in em so in future solution or note:
+✅ Final Confirmed Rule:
+🔸 If font-size is in em at any level:
+Then us element ka size banega:
+em × parent ka font-size
+
+🔸 If parent ka font-size bhi em mein hai:
+To fir uske parent ka dekhna padega...
+Aur ye multiply hota jaayega jab tak kisi ancestor ne px ya absolute unit mein font-size de rakha ho.
+
+🔸 Jaise hi kisi parent ne font-size px (ya rem, vh, etc.) mein diya:
+✔️ Wo base ban jaata hai
+Aur uske baad ke saare em ke values us base se multiply hote jaate hain

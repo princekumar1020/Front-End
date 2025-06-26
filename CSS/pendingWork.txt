@@ -1,0 +1,6 @@
+1) font 
+2) text decoration
+3) line-height
+4) word-sapacing
+5) letter-spacing
+6) text-transform

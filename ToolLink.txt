@@ -1,0 +1,3 @@
+1) pexels.com , Unsplash.com  :- free photo downloads.
+2) If we want entities we can take it from w3schools.com eg:-copyright,<,>,rupee sign entity etc.
+3) 

@@ -1,0 +1,23 @@
+1) if there are two box box1 and box2 .box1 is above box2 if we give margin-bottom 40px to box1 and and margin-top of 60 px to box2 so it doenest means ki margin between box1 and box2 is 100px marging collapse and who have greater margin vaue is the margin bw box1 and box2
+2) marging auto for center is only when we can adjust width of box only then auto margin property do work inline elements pa nhi laga sakta ya property 
+3) inline elements ma margin top and bottom dena ka koi faida nhi ha only work for left and right only.
+inline elements ma padding da sakta ha har taraf but ya bhot messup kar da gi if we give top and bottom it get over flowed
+4) we can change inline vs inline block vs block element to each other by display property.
+5) if we want that the div or box we made it content must not excid the gien width of box so use box-sizing :borderbox property.
+6)% used maximum for giving width.
+7) when ever you give some thing unit bhind any no so make sure it is stic to it for eg : font-size: 1.6rem; right
+         font-size: 1.6 rem;  wrong
+8) max-width — Maximum Limit Lagao
+Matlab: "Box ki width maximum itni ho sakti hai, usse zyada nahi. Lekin chhoti ho sakti hai."
+Samajh: Agar screen 800px ki hai to box sirf 600px tak hi badhega.
+Agar screen chhoti hai (maan lo 500px), to box 500px ho jaega.
+Lekin 601px kabhi nahi hoga.
+                            AND 
+min-width — Minimum Limit Lagao
+Matlab: "Box ki width kam se kam itni honi chahiye, chahe screen chhoti ho."
+Agar screen 800px hai to box 800px tak ho sakta hai.
+Agar screen 250px hai to box forcefully 300px tak rahega (overflow ho jaega).
+300px se kam nahi hoga.
+9) problem faced "container ko nav ke andar isliye rakhte hain kyunki layout aur spacing control h1 aur ul jaise content ke liye chahiye, nav unka wrapper hai, aur container unke layout ko manage karta hai."`
+Problem: Ab agar tu container me display: flex; justify-content: space-between; karega, to wo nav pe lagega — h1 aur ul align nahi honge!
+
