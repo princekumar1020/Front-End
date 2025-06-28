@@ -20,4 +20,5 @@ Agar screen 250px hai to box forcefully 300px tak rahega (overflow ho jaega).
 300px se kam nahi hoga.
 9) problem faced "container ko nav ke andar isliye rakhte hain kyunki layout aur spacing control h1 aur ul jaise content ke liye chahiye, nav unka wrapper hai, aur container unke layout ko manage karta hai."`
 Problem: Ab agar tu container me display: flex; justify-content: space-between; karega, to wo nav pe lagega — h1 aur ul align nahi honge!
+10) image ka aspect ratio ko bnae rakhna ka lea use - object-fit: cover;
 

@@ -58,16 +58,29 @@ h1, h2, h3{
 .text-gray{
     color: #555;
 }
+.bg-dark{
+    background-color: #263238;
+}
 .btn{
     display: inline-block;
     padding: 0.5em 1.5em;
     font-weight: 500;
     text-transform: uppercase;
     margin: 0.5em 0;
-    border-radius: 100px;
 }
 .btn-primary{
     background-color: #fff;
+    border-radius: 10em;
+}
+.btn-primary:hover{
+    background-color: #ddd;
+}
+.btn-secondary{
+    border: 2px solid #e63946;
+    border-radius: 5em;
+}
+.btn-secondary:hover{
+     background-color:#fcf3f2;
 }
 
 /* ################### HEADER STYLING ################# */
@@ -84,14 +97,14 @@ h1, h2, h3{
     /* border: 2px solid white; */
     padding: 1rem;/* first step*/
 }
-.header .navbar .logo{
+.navbar .logo{
     float: left;
 }
-.header .navbar .nav-items{
+.navbar .nav-items{
     float: right;
     margin-top: 1rem; /* 2nd step*/
 }
-.header .navbar .nav-item{
+.navbar .nav-item{
     display: inline-block;
     padding: 1rem; /* 3rd step*/
     text-transform: uppercase;
@@ -127,4 +140,278 @@ h1, h2, h3{
 }
 .header-content p{
     text-transform: uppercase;
+}
+/* ############### SHOWCASE ################## */
+.showcase{
+    background-color: #ddd;
+    padding: 10rem 0;
+}
+.row{
+    height: 350px;
+    /* border: 2px solid red; */
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.row1{
+    margin-bottom: 10rem;
+}
+.row1 .img-box,
+.row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row1 .text-box,
+.row2 .img-box{
+    float: right;
+    width: 50%;
+}
+.row .img-box{
+    /* border: 2px solid blue; */
+    height: 100%;
+}
+.row .text-box{
+    /* border: 2px solid green; */
+    padding: 3rem;
+}
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;/* img ka aspect rario ko maintain karna ka lea*/
+}
+.row::after{
+    /* wase koi jrurat nhi thi kyo ki mana already iski height set kard i thi ok but fir bhi agar mujha aga kabgi ja ka isko responsive bnane ki jrurat pda to ma isko clear kar deta ho
+    taki jab ma height auto karu to fir dikat na ho */
+    content: "";
+    display: block;
+    clear: both;
+}
+/* ############### FEATURE SECTION  ################## */
+.features{
+    padding: 10rem 0;
+}
+.box-wrapper{
+    /* border: 4px solid blue; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box{
+    width: 33.333333%;
+    float: left;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    text-align: center;
+}
+.box-1 , .box-3{
+    background-color: #263238;
+    color: #fff;
+}
+.box-2{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #fff;
+}
+.box-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* ############### FOOTER SECTION  ################## */
+.footer{
+    background-color: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+.social-media-links i{
+    margin: 2rem;
+}
+/* ############### ABOUT US PAGE  ################## */
+.about{
+    padding: 5rem 0;
+}
+/* .about-heading{
+    border-bottom: 6px solid #e63946;
+    width: 210px;
+} */
+.about-heading::after{
+    content: "";
+    display: block;
+    border: 3px solid #e63946;
+    width: 100%;
+}
+/* ############### ABOUT US PAGE  ################## */
+.about-wrapper{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 2rem;
+}
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+.about-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.about-wrapper li::before{
+    content: "\2713";
+    color: #e63946;
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.counts{
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+}
+.counts .count-item{
+    /* border: 2px solid green; */
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.count-item span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+.count-item P{
+    font-weight: 700;
+    color: #555;
+    font-size: 1.8rem;
+}
+.counts::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*##################  cta banner ############## */
+.cta-banner{
+    background:linear-gradient(25deg,#d64c7f,#ee4758 50%);
+    color: #f4f4f4;
+    padding: 1rem ;
+    box-shadow: 5px 5px 10px #00000057;
+    margin-top: 3rem;
+}
+.cta-banner-left{
+    width: 60%;
+    float: left;
+    /* border: 2px solid blue; */
+}
+.cta-banner-right{
+     width: 40%;
+    float: right;
+     /* border: 2px solid green; */
+     text-align: right;
+}
+.cta-banner::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cta-line{
+    font-weight: 700;
+    margin-top: 1.8rem;
+    font-size: 2rem;
+}
+.btn-cta{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    border: 4px solid white;
+    padding: 0.3em 2.5em;
+    color: #f4f4f4;
+}
+/*##################  contact us page  ############## */
+.contact-form{
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+}
+.form-wrapper{
+    /* border: 10px solid green; */
+}
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.form-wrapper .company-address{
+    /* border: 4px dashed blue; */
+    float: left;
+    width: 49%;
+    background-color: #fff;
+    padding: 1rem;
+    height: 760px;
+}
+.form-wrapper .address-group{
+    margin-bottom: 3rem;
+}
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.form-wrapper .company-address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.form-wrapper .company-address img{
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+/* ################### FORM STYLING ########## */
+.form-wrapper .form{
+    /* border: 4px dashed rgb(255, 0, 221); */
+    float: right;
+    width: 49%;
+    background-color: #fff;
+    font-size: 1.6rem;
+    padding: 1rem;
+    height: 760px;
+}
+.form-wrapper .form h2::after{
+    content: "";
+    display: block;
+    border: 3px solid #e63946;
+    width: 100%; 
+}
+.form-wrapper .form label{
+    display: block ;
+}
+.form-wrapper .form label::after{
+    content: "* ";
+    color: #e63946;
+}
+.form-wrapper .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.form-wrapper .form .form-group{
+    margin-bottom: 1.2rem;
+}
+.form-wrapper .form textarea{
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+.form .form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background-color: #e63946;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
