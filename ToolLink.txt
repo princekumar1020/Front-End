@@ -2,3 +2,4 @@
 2) If we want entities we can take it from w3schools.com eg:-copyright,<,>,rupee sign entity etc.
 3) color picker : we can pick color we want 
 4) font awsome: past kit copied style in html or go to cdnjs and search font awsome and past first link in html in head ,both will work .
+5) netlify.com : to host our website drag folder and drop it in this website after login
