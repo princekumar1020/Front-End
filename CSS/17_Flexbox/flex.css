@@ -1,0 +1,25 @@
+.container{
+    border: 10px solid black;
+    display: flex; /*by default its col wise aligned flex items */
+}
+.box{
+    border: 2px solid rgb(51, 49, 49);
+}
+.box1{
+    background-color: #fa8975;
+}
+.box2{
+    background-color:#c1fa75 ;
+}
+.box3{
+    background-color:#7585fa ;
+}
+.box4{
+    background-color: #f575fa;
+}
+.box5{
+    background-color:#75fadf ;
+}
+.box6{
+    background-color: #fadb75;
+}
