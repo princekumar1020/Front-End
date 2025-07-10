@@ -4,10 +4,10 @@
     /* flex-direction: row;
     flex-direction: row-reverse;
     flex-direction: column;
-    flex-direction: column-reverse; */f
+    flex-direction: column-reverse; */
 }
 .box{
-    border: 2px solid rgb(51, 49, 49);
+    border: 2px solid red;
 }
 .box1{
     background-color: #fa8975;
