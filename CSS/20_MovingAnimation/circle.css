@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height:600px;
+    width: 600px;
+    border: 2px solid black;
+    position: relative;
+    margin: 50px auto;
+}
+.circle{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: moving-circle;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    animation-timing-function: ease-in-out;
+    /* shoert hand  */
+    /* animation: moving-circle 5s forwards 2s infinite ease-in-out; */
+    /* delay is 2s and duration is 5s */
+}
+@keyframes moving-circle {
+   0% {
+    top: 0;
+    left: 0;
+    background-color: blue;
+  }
+  25% {
+    top: 0;
+    left: 550px;
+    background-color: green;
+  }
+  50% {
+    top: 550px;
+    left: 550px;
+    background-color: red;
+  }
+  75% {
+    top: 550px;
+    left: 0;
+    background-color: yellow;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: blue;
+  }
+}

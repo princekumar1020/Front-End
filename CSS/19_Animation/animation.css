@@ -1,0 +1,39 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: change-bg-color;
+    animation-duration:2s;
+    animation-delay:4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes change-bg-color {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: orange;
+    }
+}
+.line{
+    margin-top: 50px;
+    width: 150px;
+    height: 10px;
+    background-color: red;
+    animation-name: change-width;
+    animation-duration:2s;
+    animation-delay:2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+@keyframes change-width {
+    from{
+        width: 150px;
+    }
+    to{
+       width: 700px;
+    }
+}

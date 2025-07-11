@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    /* transition: all 1s ease-in-out; short hand for all propeties */
+    transition: width 1s ease-in-out,height 1s ease-in-out,border-radius 1s ease-in-out,background 1s ease-in-out;
+}
+.box:hover{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: pink;
+}
